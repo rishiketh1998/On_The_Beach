@@ -5,6 +5,7 @@ import backgrounImage from "../../assets/images/background.png";
 export default {
   title: "components/BackgroundImage",
   component: BackgroundImage,
+  tags: ["autodocs"],
   argTypes: {
     image: {
       control: { type: "text" },
