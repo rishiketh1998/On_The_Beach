@@ -65,7 +65,7 @@ function App() {
     }
 
     setHotelsInformation(sortedHotelsInformation);
-  }, [selectedFilter]);
+  }, [selectedFilter, hotelsInformation]);
 
   return (
     <>
